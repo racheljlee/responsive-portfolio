@@ -1,0 +1,208 @@
+body {
+    background-image: url('../images/seigaiha.png');
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 22px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* HEADER */
+header {
+    background-color: #fff;
+    height: 80px;
+    margin: 0 auto;
+    border-bottom: 2px solid #ddd;
+}
+.header-nav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*NAVIGATION*/
+nav {
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+}
+nav a {
+    color: #999;
+    text-decoration: none;
+    padding-right: 10px;
+}
+nav a:last-child {
+    padding-right: 0px;
+}
+nav span {
+    padding-right: 10px;
+    color: #ccc;
+}
+.menu {
+    display: inline-block;
+    padding: 32px;
+}
+
+/*NAME*/
+.name {
+    float: left;
+}
+
+.rachel {
+    background: #c3f2e5;
+    display: inline-block;
+}
+
+/*SECTION*/
+section {
+    position: relative;
+    padding: 30px;
+    overflow: overlay;
+}
+.container {
+    background: #fff;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.content {
+    padding: 30px;
+    position: relative;
+    border: 1px solid #eee;
+    height: 100%;
+}
+
+hr {
+    border: 2px dotted #ddd;
+    margin: 20px 0px 20px 0px;
+}
+p {
+    float: right;
+    width: 650px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.picture {
+    float: left;
+    padding-right: 30px;
+}
+.about .content img {
+    height: 350px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/*FOOTER*/
+footer {
+    background: #c3f2e5;
+    height: 100px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 5px solid #bbb;
+}
+
+footer span {
+    position: relative;
+    top: 40px;
+}
+
+/*****PORTFOLIO PAGE*****/
+.box-set {
+    margin-bottom: 40px;
+}
+.box-set:last-child {
+    margin-bottom: 0px;
+}
+.box {
+    background: #eee;
+    width: 280px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 24px;
+}
+.box:last-child {
+    margin-right: 0px;
+}
+.project-title {
+    background: #c3f2e5;
+    padding: 20px;
+    display: block;
+    width: 240px;
+}
+
+/*****CONTACT PAGE*****/
+form {
+    color: #888;
+}
+.form-label {
+    margin-bottom: 5px;
+}
+input {
+    color: #888;
+    width: 885px;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+textarea {
+    width: 885px;
+    height: 300px;
+    padding: 5px;
+    border-color: #ddd;
+}
+
+
+/*****MEDIA QUERIES*****/
+@media screen and (max-width: 980px ){
+    .container {
+        width: 650px;
+        margin-left: 20px;
+    }
+    .content {
+        padding: 20px;
+    }
+    .picture {
+        float: none;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        float: none;
+        width: 100%;
+        line-height: 24px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        padding-right: -150px;
+    }
+    .container {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
